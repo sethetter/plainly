@@ -1,11 +1,10 @@
 {{!< default}}
 <main>
+    {{#foreach posts}}
     <article>
-        <header>
-            <h1>Kansas Linux Fest 2016</h1>
-        </header>
         <section class="posts">
-          <p>We need to decide what will go here!</p>
+            {{content}}
         </section>
     </article>
+    {{/foreach}}
 </main>
